@@ -1,0 +1,2621 @@
+body {
+    background-color: black;
+
+}
+
+img.logo {
+
+    width: 20%;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+
+
+button.btn.btn-dark {
+    border-radius: 50%;
+}
+
+.left-button {
+    margin-left: 42%;
+    margin-top: -4%;
+}
+
+.right-button {
+    margin-left: 48%;
+    margin-top: -4%;
+}
+
+.upgrade {
+    margin-top: 3%;
+    margin-left: 55%;
+}
+
+.user-info {
+    margin-left: 72%;
+    margin-top: -5%;
+}
+
+img.home-logo {
+    width: 30px;
+    margin-left: 30px;
+    margin-top: 2%;
+}
+
+a.home-link {
+    text-decoration: none;
+    color: white;
+}
+
+p.home-link-2 {
+    font-size: 16px;
+    margin-top: -28px;
+    margin-left: 75px;
+}
+
+h4.Good.evening {
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+.good {
+    margin-top: -4%;
+    margin-left: 13%;
+}
+
+img.search-bar {
+    width: 30px;
+    margin-left: 33px;
+    margin-top: 7%;
+}
+
+a.search-bar-a {
+    text-decoration: none;
+    color: white;
+}
+
+p.search-bar-b {
+    font-size: 16px;
+    margin-top: -32px;
+    margin-left: 75px;
+}
+
+img.search-bar {
+    width: 30px;
+    margin-left: 33px;
+    margin-top: 10%;
+}
+
+img.sidhu-a {
+    width: 30%;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+.sidhu {
+    border-style: solid;
+    margin-top: 5%;
+    margin-left: 50;
+
+}
+
+a.sidhu-music {
+    text-decoration: none;
+    color: white;
+}
+
+p.sidhu-music-a {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 35%;
+    margin-top: -14%;
+}
+
+img.sidhu-b {
+    width: 30%;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+.Raka {
+    border-style: solid;
+    margin-top: 5%;
+    margin-left: 50;
+}
+
+img.raka-a {
+    width: 30%;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+a.raka-b {
+    text-decoration: none;
+    color: white;
+}
+
+p.raka-c {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 35%;
+    margin-top: -14%;
+}
+
+img.library-a {
+    width: 30px;
+    margin-left: 35px;
+    margin-top: 10%;
+}
+
+a.library-b {
+    text-decoration: none;
+    color: white;
+}
+
+p.Liibrary-c {
+    font-size: 16px;
+    margin-top: -31px;
+    margin-left: 75px;
+}
+
+.playlist {
+    margin-left: 35px;
+    margin-top: 10%;
+}
+
+a.playlist-a {
+    text-decoration: none;
+    color: white;
+}
+
+p.playlist-b {
+    font-size: 16px;
+    margin-top: -29px;
+    margin-left: 43px;
+}
+
+img.heart {
+    width: 30px;
+    margin-left: 35px;
+    margin-top: 10%;
+}
+
+a.heart-a {
+    text-decoration: none;
+    color: white;
+}
+
+p.heart-b {
+    font-size: 16px;
+    margin-top: -29px;
+    margin-left: 79px;
+}
+
+.big-boi {
+    border-style: solid;
+    margin-top: 0%;
+    margin-left: 50;
+}
+
+img.big-boi-b {
+    width: 30%;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+a.big-boi-c {
+    text-decoration: none;
+    color: white;
+}
+
+p.big-boi-d {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 35%;
+    margin-top: -14%;
+}
+
+
+
+img.arjun-b {
+    width: 37%;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+.arjun {
+    border-style: solid;
+    margin-top: -1px;
+    margin-left: 50;
+}
+
+a.arjun-c {
+    text-decoration: none;
+    color: white;
+}
+
+p.arjun-d {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 43%;
+    margin-top: -15%;
+}
+
+h4.popular-albums-a {
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+a.popular-albums-a {
+    text-decoration: none;
+    color: white;
+}
+
+h4.popular-albums-b {
+    font-size: 30;
+    font-weight: 500;
+}
+
+.line {
+    margin-left: 16%;
+    margin-top: -4%;
+}
+
+img.singa-3 {
+    width: 35%;
+    text-decoration: none;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+.singa {
+    border-style: solid;
+    margin-top: 0%;
+    margin-left: 50;
+}
+
+a.singa-1 {
+    text-decoration: none;
+    color: white;
+}
+
+
+p.singa-2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 40%;
+    margin-top: -15%;
+}
+
+a.link-1 {
+    text-decoration: none;
+    color: #aaaaaa;
+}
+
+.playlist-links {
+    margin-left: 17%;
+    margin-top: 0%;
+}
+
+a.made-1 {
+    text-decoration: none;
+    color: white;
+}
+
+h4.made-2 {
+    font-size: 28px;
+    color: white;
+    font-weight: 500;
+}
+
+.made-for {
+    margin-top: 10%;
+    margin-left: 13%;
+}
+
+img.play {
+    width: 20;
+}
+
+a.btn.btn-primary {
+    margin-left: 80%;
+    margin-top: -5%;
+}
+
+.image-card-1 {
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.card-body {
+    background: black;
+}
+
+h5.card-title {
+    color: white;
+}
+
+p.card-text {
+    color: white;
+}
+
+.image-card-2 {
+    margin-left: 6%;
+    margin-top: 3%;
+}
+
+.img-button {
+    margin-top: -24px;
+}
+
+.-karan-img {
+    height: 42%;
+}
+
+.image-card-3 {
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.image-card-4 {
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.image-card-5 {
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+a.oopular-album-a {
+    text-decoration: none;
+    color: white;
+}
+
+h4.oopular-album-b {
+    font-size: 28px;
+    color: white;
+    font-weight: 500;
+}
+
+.popular-album {
+    margin-left: 9%;
+    margin-top: 3%;
+
+}
+
+.popular-card-1 {
+    margin-left: -1%;
+    margin-top: 10%;
+}
+
+
+.popular-card-2 {
+    margin-top: 28%;
+    margin-left: 7%;
+}
+
+
+
+.moosetape {
+    height: 118px;
+}
+
+.starboy-img {
+    height: 118px;
+}
+
+.popular-card-3 {
+    margin-top: 28%;
+    margin-left: 6%;
+}
+
+.pathan-img {
+    height: 118;
+}
+
+.popular-card-4 {
+    margin-top: 28%;
+    margin-left: 4%;
+}
+
+.carnival-img {
+    height: 118;
+}
+
+.popular-card-5 {
+    margin-top: 28%;
+    margin-left: 2%;
+}
+
+.divine-2-img {
+    height: 118;
+}
+
+.popular-card-6 {
+    margin-top: 28%;
+    margin-left: 0%;
+}
+
+.radio {
+    margin-left: 9%;
+    margin-top: 7%;
+}
+
+a.radio-a {
+    text-decoration: none;
+    color: white;
+}
+
+h4.radio-b {
+    font-size: 28px;
+    color: white;
+    font-weight: 500;
+}
+
+.karan-radio {
+    height: 50%;
+}
+
+.radio-img-card-1 {
+    margin-left: 9%;
+    margin-top: 7%;
+}
+
+.radio-img-card-2 {
+    margin-top: 24%;
+    margin-left: 4%;
+}
+
+.radio-img-card-3 {
+    margin-top: 24%;
+    margin-left: 4%;
+}
+
+.dilpreet-radio {
+    height: 50%;
+}
+
+.sidhu-radio {
+    height: 50%;
+}
+
+.chamkila-radio {
+    height: 50%;
+}
+
+.radio-img-card-4 {
+    margin-top: 24%;
+    margin-left: 4%;
+}
+
+a.footer {
+    text-decoration: none;
+    color: white;
+}
+
+.bootsrap {
+    text-align: center;
+    margin-top: 3%;
+}
+
+img.logo-c {
+    width: 30%;
+    margin-left: 6%;
+    margin-top: 4%;
+}
+
+img.logo-c {
+    width: 16%;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.left-button-a {
+    margin-left: 30%;
+    margin-top: -3%;
+}
+
+.right-button-a {
+    margin-left: 34%;
+    margin-top: -3%;
+}
+
+input.search {
+    width: 25%;
+    margin-top: -3%;
+    margin-left: 39%;
+}
+
+.user-info-a {
+    margin-top: 4%;
+    margin-left: 50%;
+}
+
+img.search-logo-a {
+    width: 30px;
+    margin-left: 32px;
+    margin-top: 12%;
+}
+
+a.search-home-a {
+    text-decoration: none;
+    color: white;
+}
+
+p.search-home-b {
+    font-size: 16px;
+    margin-top: -28px;
+    margin-left: 75px;
+}
+
+a.browse-all-a {
+    text-decoration: none;
+    color: white;
+}
+
+h4.browse-all-b {
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+.browse-all {
+    margin-top: 9%;
+    margin-left: 17%;
+}
+
+.podcast-button {
+    margin-top: 10%;
+}
+
+.search-card-1 {
+    margin-top: 10%;
+}
+
+.search-card-2 {
+    margin-top: 35%;
+}
+
+.search-card-3 {
+    margin-top: 35%;
+}
+
+.search-card-4 {
+    margin-top: 35%;
+}
+
+.search-card-5 {
+    margin-top: 35%;
+}
+
+.playlist-a {
+    margin-left: 35px;
+    margin-top: -20%;
+}
+
+.search-card-6 {
+    margin-top: 20%;
+}
+
+.line-a {
+    margin-left: 16%;
+    margin-top: -1%;
+}
+
+.playlist-links-a {
+    margin-left: 17%;
+    margin-top: -56%;
+}
+
+.library-buttons {
+    margin-left: 41%;
+    margin-top: -3%;
+}
+
+a.playlists-a {
+    text-decoration: none;
+    color: white;
+}
+
+h4.playlists-b {
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+.Playlists {
+    margin-top: 9%;
+    margin-left: 17%;
+
+}
+
+.liked-song {
+    margin-left: -60%;
+}
+
+.your-card {
+    margin-top: 10%;
+}
+
+.playlist-button {
+    margin-left: -76%;
+    margin-top: 16%;
+}
+
+.your-card-1 {
+    margin-top: 35%;
+}
+
+.playlist-b {
+    margin-left: 35px;
+    margin-top: -95%;
+}
+
+.playlist-links-b {
+    margin-left: 17%;
+    margin-top: -33%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.playlist-1 {
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.playlist-button-a {
+    margin-left: -16%;
+    margin-top: 13%;
+}
+
+img.pause {
+    width: 20;
+}
+
+.stop-button {
+    margin-left: 49%;
+    margin-top: -18%;
+}
+
+div#your {
+    margin-top: 1%;
+}
+
+img.liked {
+    width: 12%;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+a.liked-play {
+    text-decoration: none;
+    color: white;
+}
+
+p.liked-play-a {
+    font-size: 22px;
+    margin-left: 33%;
+    margin-top: -10%;
+}
+
+h4.liked {
+    color: white;
+    font-size: 35px;
+    margin-left: 414px;
+    margin-top: -5px;
+}
+
+p.Gaurav {
+    color: white;
+    font-size: 20px;
+    margin-left: 33%;
+    margin-top: 1%;
+}
+
+p.\32 0-song {
+    color: white;
+    font-size: 16px;
+    margin-left: 44%;
+    margin-top: -42px;
+}
+
+p.\31 {
+    font-size: 18px;
+    color: white;
+    margin-left: 21%;
+    margin-top: 3%;
+}
+
+img.about-you {
+    width: 3%;
+    border-radius: 50%;
+    margin-left: 23%;
+    margin-top: -51px;
+}
+
+audio::-webkit-media-controls-panel {
+
+    background-color: rgba(0, 0, 0, 0.806);
+}
+
+audio#audio {
+    width: 50%;
+    margin-top: -56px;
+    margin-left: 27%;
+}
+
+button.btn.btn-primary {
+    background: black;
+}
+
+a.play1 {
+    text-decoration: none;
+    color: white;
+}
+
+.play-1 {
+    text-align: center;
+    margin-top: 3%;
+}
+
+/* upgrade background */
+body#upgrade-body {
+    background: white;
+}
+
+a.bharat {
+    text-decoration: none;
+}
+
+p.bharat-a {
+    margin-left: 12%;
+    margin-top: 1%;
+    color: white;
+}
+
+img.upgrade-logo {
+    width: 10%;
+    margin-top: 1%;
+    margin-left: 11%;
+}
+
+a.premium {
+    text-decoration: none;
+}
+
+p.premium-a {
+    font-size: 21px;
+    margin-top: -40px;
+    margin-left: 56%;
+    color: white;
+}
+
+a.support {
+    text-decoration: none;
+}
+
+p.support-a {
+    font-size: 21px;
+    margin-top: -47px;
+    margin-left: 64%;
+    color: white;
+}
+
+a.download {
+    text-decoration: none;
+    color: white;
+}
+
+p.Download-a {
+    font-size: 21px;
+    margin-top: -47px;
+    margin-left: 71%;
+}
+
+p.\| {
+    font-size: 21px;
+    margin-top: -48px;
+    margin-left: 79%;
+    color: white;
+}
+
+.upgrade-dropdown {
+    margin-top: -47px;
+    margin-left: 82%;
+}
+
+h2.get-premium-a {
+    font-size: 42px;
+    font-weight: 600;
+    color: white;
+}
+
+.get-premium {
+    text-align: center;
+    margin-top: 7%;
+}
+
+h3.Just.₹119 {
+    margin-top: 2%;
+    color: white;
+}
+
+.get-started-button {
+    margin-left: 37%;
+    margin-top: 44px;
+}
+
+.see-other-plans {
+    margin-left: 47%;
+    margin-top: -37px;
+}
+
+.see-other-plans {
+    margin-left: 52%;
+    margin-top: -48px;
+}
+
+a.terms-a {
+    text-decoration: none;
+}
+
+.terms {
+    margin-left: 27%;
+    margin-top: 2%;
+}
+
+p.month {
+    margin-top: -39px;
+    margin-left: 18%;
+    color: white;
+}
+
+.upgrade-back {
+    background: black;
+}
+
+h2.power {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.power-image {
+    margin-left: 19%;
+    margin-top: 2%;
+}
+
+img.power-image-a {
+    width: 77%;
+}
+
+.pick-your-premium {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 3%;
+}
+
+p.Listen.without {
+    font-size: 20;
+    font-weight: 600;
+    text-align: center;
+}
+
+img.upi {
+    width: 5%;
+    margin-left: 38%;
+}
+
+
+img.paytm {
+    width: 3%;
+    margin-left: 0%;
+    margin-top: -4px;
+}
+
+img.visa {
+    width: 3%;
+    margin-left: 15px;
+    margin-top: -4px;
+}
+
+img.master {
+    width: 3%;
+    margin-left: -1px;
+    margin-top: -4px;
+}
+
+img.amex {
+    width: 3%;
+    margin-left: 3px;
+    margin-top: -4px;
+}
+
+img.dinner {
+    width: 3%;
+    margin-left: 5px;
+    margin-top: -4px;
+}
+
+/* upgrade-card */
+div#upgrade {
+    background: white;
+}
+
+.upgrade-card-1 {
+    margin-left: 14%;
+    margin-top: 12%;
+}
+
+h5.Mini {
+    margin-left: 1%;
+    margin-top: 6%;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+p.From {
+    font-weight: 600;
+    margin-top: -2%;
+    margin-left: 1%;
+}
+
+p.account {
+    font-weight: 600;
+    margin-top: -5%;
+    margin-left: 1%;
+}
+
+.upgrade-hr {
+    margin-top: 24%;
+}
+
+hr.upgrade-hr-a {
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+p.upgrade-tick-a {
+    font-weight: 600;
+}
+
+p.mobile-device {
+    font-weight: 600;
+    margin-left: 7%;
+    margin-top: -6%;
+}
+
+.upgrade-button {
+    margin-left: 28%;
+    margin-top: 9%;
+}
+
+.upgrade-card-2 {
+    margin-left: 9%;
+    margin-top: 12%;
+}
+
+h5.Individual {
+    margin-left: 1%;
+    margin-top: 3%;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+p.₹119\/month {
+    font-weight: 600;
+    margin-top: -1%;
+    margin-left: 1%;
+}
+
+.card-button {
+    margin-left: -395%;
+    margin-top: 25%;
+}
+
+.card-outline-button {
+    margin-top: -5%;
+}
+
+.upgrade-button-a {
+    margin-left: 28%;
+    margin-top: 18%;
+}
+
+p.Ad-free {
+    font-weight: 600;
+}
+
+p.Download.\31 0k {
+    font-weight: 600;
+}
+
+p.Group.Session {
+    font-weight: 600;
+}
+
+p.temrs-b {
+    color: black;
+    margin-left: 15%;
+    margin-top: 8%;
+    font-size: 13px;
+}
+
+.upgrade-card-3 {
+    margin-left: 9%;
+    margin-top: 12%;
+}
+
+.upgrade-card-4 {
+    margin-left: 9%;
+    margin-top: 12%;
+}
+
+h5.Special-a {
+    font-size: 25px;
+}
+
+.special {
+    margin-left: 25%;
+    margin-top: 3%;
+}
+
+.special-button {
+    margin-left: 64%;
+    margin-top: -40px;
+}
+
+img.footer-img-a {
+    width: 15%;
+}
+
+.footer-img {
+    margin-left: 19%;
+    margin-top: 5%;
+}
+
+p.company {
+    margin-left: 38%;
+    margin-top: -2%;
+    color: white;
+}
+
+a.about {
+    text-decoration: none;
+    color: white;
+}
+
+p.about-a {
+    margin-left: 38%;
+    margin-top: 0%;
+}
+
+.footer-2 {
+    margin-top: -16%;
+    margin-left: 32%;
+}
+
+.footer-3 {
+    margin-left: 63%;
+    margin-top: -24%;
+}
+
+img.insta {
+    width: 28;
+}
+
+img.twitter {
+    width: 28;
+}
+
+img.facebook {
+    width: 28;
+}
+
+.footer-buttons {
+    margin-top: 13%;
+    margin-left: 5%;
+}
+
+a.legal {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-anchor {
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.footer-anchor-b {
+    margin-left: 31%;
+    margin-top: 15%;
+}
+
+.footer-anchor-c {
+    margin-left: 26%;
+    margin-top: -40px;
+}
+
+.footer-anchor-d {
+    margin-left: 38%;
+    margin-top: -40px;
+}
+
+.footer-anchor-e {
+    margin-left: 50%;
+    margin-top: -40px;
+}
+
+.footer-anchor-f {
+    margin-left: 58%;
+    margin-top: -40px;
+}
+
+.footer-anchor-g {
+    margin-left: 68%;
+    margin-top: -40px;
+}
+
+a.India.\(English\) {
+    text-decoration: none;
+    color: white;
+}
+
+p.India.\(English\)-a {
+    margin-left: 49%;
+    margin-top: 13%;
+}
+
+.spotify-ab {
+    margin-left: 48%;
+    margin-top: 4%;
+    color: white;
+}
+
+div#upgrade-footer {
+    margin-top: 2%;
+}
+
+div#upgrade-background {
+    background: #f7f3f3;
+}
+
+footer#upgrade-footer {
+    background: black;
+    margin-top: 3%;
+}
+
+p.\|-a {
+    font-size: 21px;
+    margin-top: -48px;
+    margin-left: 80%;
+    color: white;
+}
+
+.terms-a {
+    margin-left: 27%;
+    margin-top: 2%;
+}
+
+p.month-a {
+    margin-top: -39px;
+    margin-left: 12%;
+    color: white;
+}
+
+p.upgrade-tick-b {
+    font-weight: 600;
+    margin-left: 7%;
+    margin-top: -7%;
+}
+
+p.temrs-card-button {
+    color: black;
+    margin-left: 28%;
+    margin-top: 8%;
+    font-size: 13px;
+}
+
+.special-button-a {
+    margin-left: 65%;
+    margin-top: -40px;
+}
+
+div#upgrade-footer-a {
+    margin-top: 2%;
+}
+
+.your-plan {
+    margin-left: 38%;
+    margin-top: 4%;
+    border: 1px solid;
+    background: #373b3e;
+}
+
+p.Your.plan {
+    color: white;
+    font-size: 14px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+
+h4.Spotify.Free {
+    color: #aaaaaa;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: -1%;
+    margin-left: 2%;
+}
+
+img.account-spotify {
+    width: 4%;
+    margin-left: 42%;
+    margin-top: -6%;
+}
+
+.account-button {
+    margin-left: 34%;
+    margin-top: 8%;
+}
+
+img.account-spotify {
+    width: 7%;
+    margin-left: 92%;
+    margin-top: -14%;
+}
+
+.account-button {
+    margin-left: 75%;
+    margin-top: 8%;
+}
+
+img.premium {
+    width: 25%;
+}
+
+img.premium {
+    width: 25%;
+    margin-left: 34%;
+    margin-top: 26%;
+}
+
+p.Join.Premium {
+    color: white;
+    margin-left: 27%;
+    margin-top: 10%;
+}
+
+div#premium {
+    margin-top: 16%;
+    border: 1px solid;
+    border-radius: 7%;
+    border-color: azure;
+    background: #282828;
+}
+
+h4.Account {
+    color: white;
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+.account-3 {
+    margin-left: 29%;
+    margin-top: 3%;
+    border: 1px solid;
+}
+
+a.Manage {
+    text-decoration: none;
+    color: white;
+}
+
+p.Manage-a {
+    font-size: 16px;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+a.right-arrow {
+    text-decoration: none;
+    color: white;
+}
+
+p.right-arrow-a {
+    margin-top: -5%;
+    margin-left: 95%;
+}
+
+a.Manage {
+    text-decoration: none;
+    color: white;
+    /* border: 1px solid white; */
+}
+
+.Manage:hover {
+    /* Your hover styles for the "Manage" link */
+    /* For example, change text color */
+    color: blue;
+}
+
+.right-arrow:hover {
+    /* Your hover styles for the "right-arrow" link */
+    /* For example, change text color */
+    color: blue;
+}
+
+.account-4 {
+    margin-left: 29%;
+    margin-top: 3%;
+    border: 1px solid;
+}
+
+.account-5 {
+    margin-left: 29%;
+    margin-top: 3%;
+    border: 1px solid;
+}
+
+.account-6 {
+    margin-left: 29%;
+    margin-top: 3%;
+    border: 1px solid;
+}
+
+div#language {
+    background: blue;
+}
+
+.footer-anchor-h {
+    margin-left: 72%;
+    margin-top: -40px;
+}
+
+h4.Log.in {
+    font-size: 28px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+.log-out-buttons {
+    margin-left: 42%;
+    margin-top: 2%;
+}
+
+button#myButton {
+    width: 28%;
+}
+
+img.google {
+    width: 20px;
+    margin-left: -91%;
+    margin-top: 23px;
+}
+
+img.apple {
+    width: 48px;
+    margin-left: -87%;
+    margin-top: 18px;
+}
+
+img.smart {
+    width: 28px;
+    margin-left: -87%;
+    margin-top: 18px;
+}
+
+
+button.btn.btn-primary {
+    background: black;
+    /* width: 27%; */
+    border-radius: 3%;
+}
+
+p.google-button {
+    margin-left: 5%;
+    margin-top: -11%;
+}
+
+p.facebook-button {
+    margin-left: 12%;
+    margin-top: -11%;
+}
+
+p.apple-button {
+    margin-left: 1%;
+    margin-top: -12%;
+}
+
+p.smart-button {
+    margin-left: 3%;
+    margin-top: -13%;
+}
+
+.logout-hr {
+    margin-left: 30%;
+    margin-top: -1%;
+}
+
+hr.logout-hr-a {
+    color: white;
+    width: 59%;
+}
+
+label.form-label {
+    color: white;
+}
+
+input#exampleInputEmail1 {
+    width: 27%;
+}
+
+form#logout-form-a {
+    margin-left: 42%;
+    margin-top: 1%;
+}
+
+.password-container {
+    position: relative;
+    width: 300px;
+}
+
+#password {
+    width: 27%;
+    /* padding: 10px; */
+    /* margin-bottom: 10px; */
+    /* margin-top: 4%;
+    margin-left: -8%;
+    height: 22%;
+    border-radius: 6%; */
+}
+
+
+#eye-icon {
+    /* position: absolute; */
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    /* margin-left: -4%; */
+}
+
+.eye-icon {
+    margin-top: -31px;
+    margin-left: 23%;
+}
+
+label {
+    color: white;
+}
+
+.remember-me {
+    margin-top: 4%;
+}
+
+.login-button {
+    margin-left: 42%;
+    margin-top: 2%;
+}
+
+a.btn.btn-success.btn-lg {
+    width: 28%;
+}
+
+.logout-hr-b {
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+a.forgot-a {
+    text-decoration: revert;
+    color: white;
+}
+
+p.forgot-b {
+    font-size: 16px;
+}
+
+.forgot {
+    text-align: center;
+    margin-top: 3%;
+}
+
+p.Don\'t {
+    color: white;
+    font-size: 16;
+    text-align: center;
+    margin-left: -9%;
+    margin-top: 1%;
+}
+
+a.sign {
+    color: white;
+    font-size: 16;
+    text-align: center;
+    /* margin-left: -16%; */
+    /* margin-top: 1%; */
+}
+
+p.sign-a {
+    margin-left: 12%;
+    margin-top: -42px;
+}
+
+button#googleButton {
+    background: black;
+    width: 27%;
+    border-radius: 3%;
+}
+
+button#facebokButton {
+    background: black;
+    width: 27%;
+    border-radius: 3%;
+}
+
+
+button#appleButton {
+    background: black;
+    width: 27%;
+    border-radius: 3%;
+}
+
+button#googleButton {
+    background: black;
+    width: 27%;
+    border-radius: 3%;
+}
+
+button#MobileButton {
+    background: black;
+    width: 27%;
+    border-radius: 3%;
+}
+
+img.profile {
+    width: 8%;
+}
+
+.profile {
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+p.Profile-a {
+    color: white;
+    font-size: 22px;
+    /* margin-left: 26%;
+    margin-top: -7%; */
+}
+
+h4.gaurav {
+    font-size: 28px;
+    color: white;
+    font-weight: 700;
+    margin-top: -5px;
+}
+
+
+.profile-name {
+    margin-left: 26%;
+    margin-top: -7%;
+}
+
+p.\34 .public {
+    font-size: 15px;
+    color: white;
+    margin-left: 7px;
+    margin-top: 14px;
+}
+
+a.following {
+    text-decoration: none;
+    color: white;
+}
+
+p.following-a {
+    margin-left: 12%;
+    margin-top: -39px;
+}
+
+.profile-drop-down {
+    margin-left: 10%;
+    margin-top: 0%;
+}
+
+a.dots {
+    color: white;
+    text-decoration: none;
+}
+
+p.dots-a {
+    font-size: 40px;
+}
+
+button#openModalBtn {
+    margin-left: 21%;
+    margin-top: 2%;
+}
+
+
+a.copy {
+    text-decoration: none;
+    color: white;
+}
+
+p.copy-a {
+    font-size: 18;
+    margin-left: 21%;
+    margin-top: 2%;
+}
+
+h4.top-artist-a {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    /* margin-left: 21%;
+    margin-top: 1%; */
+}
+
+.top-artist {
+    margin-left: 21%;
+    margin-top: 1%;
+}
+
+p.only {
+    color: #aaaaaa;
+    margin-top: 1%;
+}
+
+.profile-card-1 {
+    margin-left: 15%;
+    margin-top: 6%;
+}
+
+a.card-text-b {
+    text-decoration: none;
+    color: white;
+}
+
+a.card-text-b {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+img.shubh {
+    width: 100%;
+    height: 287px;
+}
+
+
+p.Artist {
+    text-align: center;
+    color: #aaaaaa;
+    font-size: 19px;
+}
+
+.top-tracks {
+    margin-left: 21%;
+    margin-top: 3%;
+}
+
+.profile-song {
+    margin-top: 5%;
+}
+
+.profile-card-1 {
+    margin-left: 24%;
+    margin-top: 8%;
+}
+
+.profile-card-2 {
+    margin-left: 18%;
+    margin-top: 8%;
+}
+
+.profile-card-3 {
+    margin-left: 9%;
+    margin-top: 8%;
+}
+
+.profile-card-4 {
+    margin-left: 5%;
+    margin-top: 8%;
+}
+
+h4.following-a {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.following {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.following-1 {
+    margin-left: 13%;
+    margin-top: 5%;
+}
+
+.following-2 {
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.following-3 {
+    margin-left: -6%;
+    margin-top: 5%;
+}
+
+.top-tracks-a {
+    margin-left: 6%;
+    margin-top: 3%;
+}
+
+h4.settings {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.settings {
+    margin-left: 12%;
+    margin-top: 2%;
+}
+
+h5.language {
+    font-size: 20;
+    font-weight: 700;
+    color: white;
+    margin-left: 12%;
+    margin-top: 3%;
+}
+
+p.choose {
+    color: #aaaaaa;
+    font-size: 15px;
+    margin-left: 12%;
+    margin-top: 1%;
+}
+
+form#setting-form {
+    margin-top: -3%;
+    margin-left: 75%;
+}
+
+input.form-control {
+    width: 60%;
+}
+
+.setting-dropdown {
+    margin-top: -5%;
+    margin-left: 75%;
+}
+
+h5.Explicit {
+    font-size: 20;
+    font-weight: 700;
+    color: white;
+    margin-left: 12%;
+    margin-top: 4%;
+}
+
+p.Allow {
+    color: #aaaaaa;
+    font-size: 15px;
+    margin-left: 12%;
+    margin-top: 1%;
+}
+
+.switch {
+    position: relative;
+    display: block;
+    vertical-align: top;
+    width: 100px;
+    height: 30px;
+    padding: 3px;
+    margin: 0 10px 10px 0;
+    background: linear-gradient(to bottom, #eeeeee, #FFFFFF 25px);
+    background-image: -webkit-linear-gradient(top, #eeeeee, #FFFFFF 25px);
+    border-radius: 18px;
+    box-shadow: inset 0 -1px white, inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    box-sizing: content-box;
+}
+
+.switch-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    box-sizing: content-box;
+}
+
+.switch-label {
+    position: relative;
+    display: block;
+    height: inherit;
+    font-size: 10px;
+    text-transform: uppercase;
+    background: #eceeef;
+    border-radius: inherit;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.15);
+    box-sizing: content-box;
+}
+
+.switch-label:before,
+.switch-label:after {
+    position: absolute;
+    top: 50%;
+    margin-top: -.5em;
+    line-height: 1;
+    -webkit-transition: inherit;
+    -moz-transition: inherit;
+    -o-transition: inherit;
+    transition: inherit;
+    box-sizing: content-box;
+}
+
+.switch-label:before {
+    content: attr(data-off);
+    right: 11px;
+    color: #aaaaaa;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.switch-label:after {
+    content: attr(data-on);
+    left: 11px;
+    color: #FFFFFF;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+}
+
+.switch-input:checked~.switch-label {
+    background: green;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15), inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.switch-input:checked~.switch-label:before {
+    opacity: 0;
+}
+
+.switch-input:checked~.switch-label:after {
+    opacity: 1;
+}
+
+.switch-handle {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 28px;
+    height: 28px;
+    background: linear-gradient(to bottom, #FFFFFF 40%, #f0f0f0);
+    background-image: -webkit-linear-gradient(top, #FFFFFF 40%, #f0f0f0);
+    border-radius: 100%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.switch-handle:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -6px 0 0 -6px;
+    width: 12px;
+    height: 12px;
+    background: linear-gradient(to bottom, #eeeeee, #FFFFFF);
+    background-image: -webkit-linear-gradient(top, #eeeeee, #FFFFFF);
+    border-radius: 6px;
+    box-shadow: inset 0 1px rgba(0, 0, 0, 0.02);
+}
+
+.switch-input:checked~.switch-handle {
+    left: 74px;
+    box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Transition
+========================== */
+.switch-label,
+.switch-handle {
+    transition: All 0.3s ease;
+    -webkit-transition: All 0.3s ease;
+    -moz-transition: All 0.3s ease;
+    -o-transition: All 0.3s ease;
+}
+
+.toggle-button {
+    margin-top: -5%;
+    margin-left: 75%;
+}
+
+.setting-dropdown-a {
+    margin-top: -7%;
+    margin-left: 75%;
+}
+
+.setting-dropdown-b {
+    margin-top: 1%;
+    margin-left: 75%;
+}
+
+p.auto {
+    color: #aaaaaa;
+    font-size: 15px;
+    margin-left: 12%;
+    margin-top: 2%;
+}
+
+.toggle-button-a {
+    margin-top: -3%;
+    margin-left: 75%;
+}
+
+.setting-dropdown-c {
+    margin-top: -3%;
+    margin-left: 75%;
+}
+
+.toggle-button-b {
+    margin-top: -10%;
+    margin-left: 75%;
+}
+
+.toggle-button-c {
+    margin-top: 1%;
+    margin-left: 75%;
+}
+
+.toggle-button-d {
+    margin-top: 1%;
+    margin-left: 75%;
+}
+
+.connect-facebook {
+    margin-top: -4%;
+    margin-left: 75%;
+}
+
+p.Spotify.Support {
+    font-size: 20;
+    color: #aaaaaa;
+    font-weight: 400;
+}
+
+.Spotify-support {
+    margin-left: 29%;
+    margin-top: 2%;
+}
+
+h1.How {
+    color: white;
+    font-weight: 600;
+    margin-top: -1%;
+}
+
+img.support-user {
+    width: 7%;
+}
+
+.support-b {
+    margin-left: 28%;
+    margin-top: 1%;
+}
+
+h4.Hello {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    margin-top: -5%;
+    margin-left: 7%;
+}
+
+form#support-form {
+    margin-left: 29%;
+    margin-top: 3%;
+}
+
+
+a.payment {
+    text-decoration: none;
+    color: white;
+}
+
+p.payment-a {
+    font-size: 20;
+    font-weight: 700;
+}
+
+p.support-text {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.support-card-1 {
+    margin-left: 29%;
+    margin-top: 1%;
+}
+
+.support-card-2 {
+    margin-left: 44%;
+    margin-top: -12%;
+}
+
+.support-card-3 {
+    margin-left: 59%;
+    margin-top: -12%;
+}
+
+.support-card-4 {
+    margin-left: 29%;
+    margin-top: 1%;
+}
+
+.support-card-5 {
+    margin-left: 44%;
+    margin-top: -203px;
+}
+
+.support-card-6 {
+    margin-left: 59%;
+    margin-top: -203px;
+}
+
+img.support-5 {
+    height: 123px;
+}
+
+h4.How {
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 4%;
+}
+
+a.can\'t {
+    text-decoration: none;
+    color: white;
+}
+
+p.can\'t-a {
+    font-size: 18px;
+    margin-top: 3%;
+}
+
+a.support-arrow {
+    text-decoration: none;
+    color: white;
+}
+
+p.support-arrow-a {
+    margin-top: -4%;
+    margin-left: 59%;
+}
+
+h2.Visit.our {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.community {
+    text-align: center;
+    margin-top: 3%;
+}
+
+p.Have.questions {
+    color: white;
+    margin-top: 1%;
+}
+
+.coummunity-button {
+    margin-top: 1%;
+}
+
+h1.How-a {
+    color: white;
+    font-weight: 600;
+    margin-top: 0%;
+}
+
+img.download-1 {
+    width: 11%;
+    margin-left: -7%;
+}
+
+img.green-tick {
+    width: 2%;
+    margin-left: -102px;
+    border-radius: 50%;
+}
+
+.download-image {
+    text-align: center;
+    margin-top: 4%;
+}
+
+div#download-green {
+    background: #1ed760;
+    margin-top: 2%;
+}
+
+h3.Download {
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 2%;
+}
+
+p.paly {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 1%;
+}
+
+.download-2 {
+    text-align: center;
+}
+
+img.microsoft {
+    width: 15%;
+    margin-top: 1%;
+}
+
+a.directly {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+p.directly-a {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 1%;
+}
+
+.download-background {
+    background: white;
+}
+
+.bring {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.bring-a {
+    text-align: center;
+    margin-top: 3%;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+p.listening {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 1%;
+}
+
+img.apple-download {
+    width: 18%;
+}
+
+a.btn.btn-warning {
+    width: 13%;
+}
+
+.download-buttons {
+    margin-left: 513px;
+    margin-top: 1%;
+}
+
+div#download-background {
+    background: white;
+}
+
+.all-devices {
+    margin-top: 3%;
+    width: 55%;
+    /* text-align: center; */
+    margin-left: 22%;
+}
+
+div#black-background {
+    background: #181b1e;
+}
+
+h2.One.account {
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin-top: 1%;
+}
+
+p.mobile {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.download-text {
+    margin-left: 19%;
+    margin-top: 3%;
+}
+
+.download-text-a {
+    margin-left: 26%;
+    margin-top: -3%;
+}
+
+.download-text-b {
+    margin-left: 36%;
+    margin-top: -47px;
+}
+
+a.car {
+    text-decoration: none;
+    color: #1ed760;
+}
+
+p.car-a {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.download-text-c {
+    margin-left: 44%;
+    margin-top: -46px;
+}
+
+.download-text-d {
+    margin-left: 50%;
+    margin-top: -46px;
+}
+
+.download-text-e {
+    margin-left: 61%;
+    margin-top: -46px;
+}
+
+.download-text-f {
+    margin-left: 68%;
+    margin-top: -46px;
+}
+
+.download-text-g {
+    margin-left: 73%;
+    margin-top: -46px;
+}
+
+.download-text-h {
+    margin-left: 82%;
+    margin-top: -46px;
+}
+
+.download-texts {
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.download-texts-a {
+    margin-left: -9%;
+    margin-top: 1%;
+}
+
+
+
+.download-texts-h {
+    margin-left: 0%;
+    margin-top: 1%;
+}
+
+.download-text-a {
+    margin-left: 26%;
+    margin-top: -3%;
+}
+
+.download-text-b-h {
+    margin-left: 33%;
+    margin-top: -47px;
+}
+
+.download-text-c-h {
+    margin-left: 39%;
+    margin-top: -46px;
+}
+
+.download-text-d-h {
+    margin-left: 44%;
+    margin-top: -46px;
+}
+
+.download-text-e-h {
+    margin-left: 56%;
+    margin-top: -46px;
+}
+
+.download-text-f-h {
+    margin-left: 62%;
+    margin-top: -46px;
+}
+
+.download-text-g-h {
+    margin-left: 67%;
+    margin-top: -46px;
+}
+
+.download-text-h-h {
+    margin-left: 73%;
+    margin-top: -46px;
+}
+
+img.profile-sidhu {
+    width: 101%;
+}
+
+
+.sidhu-profile {
+    margin-top: -4%;
+}
+
+img.blue-tick {
+    width: 2%;
+}
+
+.blue-tick-img {
+    margin-top: -35%;
+    margin-left: 2%;
+}
+
+img.bluetick {
+    width: 2%;
+}
+
+p.Verified {
+    font-size: 20;
+    font-weight: 600;
+    color: white;
+    margin-top: -32px;
+    margin-left: 37px;
+}
+
+h4.profile-name-b {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.profile-name-a {
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+p.listners-a {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.listners {
+    margin-left: 36px;
+    margin-top: 1%;
+}
+
+#followBtn {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.following-button {
+    margin-top: -11%;
+    margin-left: 2%;
+}
+
+h4.Popular-a {
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}
+
+.popular {
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+p.\31 -profile {
+    font-size: 18px;
+    color: white;
+    margin-left: 21%;
+    margin-top: -3%;
+}
+
+p.\32 -profile {
+    font-size: 18px;
+    color: white;
+    margin-left: 21%;
+    margin-top: 3%;
+}
+
+p.\33 -profile {
+    font-size: 18px;
+    color: white;
+    margin-left: 21%;
+    margin-top: 3%;
+}
+
+p.\34 -profile {
+    font-size: 18px;
+    color: white;
+    margin-left: 21%;
+    margin-top: 3%;
+}
+
+p.\35 -profile {
+    font-size: 18px;
+    color: white;
+    margin-left: 21%;
+    margin-top: 3%;
+}
+
+img.profile-karan {
+    width: 101%;
+}
+
+.profile-details {
+    margin-top: 12%;
+}
+
+div#karan-details {
+    margin-top: 13%;
+}
+
+.listners-shubh {
+    margin-left: 31px;
+    margin-top: 1%;
+
+}
+
+.sidhu-profile-details {
+    margin-top: 13%;
+}
+
+.profile-details-karan {
+    margin-top: 12%;
+}
+
+.profile-details-shubh {
+    margin-top: 14%;
+}
+
+/* Search form */
+
+.search-form {
+    margin-top: -3%;
+    width: 51%;
+    margin-left: 39%;
+}
+
+
+img.legend-img {
+    width: 101%;
+}
+
+h3.legend-a {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.legend-info {
+    margin-top: -35%;
+    margin-left: 3%;
+}
+
+h4.legend-b {
+    color: white;
+    font-size: 27px;
+    font-weight: 400;
+    margin-top: 1%;
+}
+
+.legend-button {
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.legend-songs {
+    margin-top: 31%;
+}
+
+.legend-info-a {
+    margin-top: -28%;
+    margin-left: 3%;
+}
+
+.legend-songs-b {
+    margin-top: 24%;
+}
+
+.legend-songs-a {
+    margin-top: 28%;
+}
+
+.legend-info-b {
+    margin-top: -24%;
+    margin-left: 3%;
+}
+
+.legend-image-a {
+    margin-top: 1%;
+}
+
+.legend-info-b {
+    margin-top: -26%;
+    margin-left: 3%;
+}
+
+.legend-songs-b {
+    margin-top: 26%;
+}
+
+.legend-info-c {
+    margin-top: -29%;
+    margin-left: 3%;
+}
+
+.legend-songs-c {
+    margin-top: 28%;
+}
+
+.legend-info-c {
+    margin-top: -33%;
+    margin-left: 3%;
+}
+
+.legend-songs-c {
+    margin-top: 32%;
+}
+
+.stop-button-a {
+    margin-left: 49%;
+    margin-top: -34px;
+}
+
+.stop-button-b {
+    margin-left: 49%;
+    margin-top: -34px;
+}
+
+.playlist-button-b {
+    margin-left: -16%;
+    margin-top: 28%;
+}
+
+img.karan-3 {
+    height: 139px;
+}
+
+div#alnums {
+    margin-top: 1%;
+}
+
