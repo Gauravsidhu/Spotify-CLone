@@ -1,0 +1,428 @@
+<html>
+
+<head>
+    <title>Spotify-artist</title>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="stylesheet/spotify.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="row">
+
+            <div class="col-6">
+
+                <a href="index.html"><img src="images/spotify.png" class="logo"></a>
+
+                <div class="left-button">
+
+                    <a href="index.html"><button type="button" class="btn btn-dark btn-sm">
+                            < </button></a>
+
+                </div>
+
+                <div class="right-button">
+
+                    <a href="search.html"><button type="button" class="btn btn-dark btn-sm">
+                            > </button></a>
+
+                </div>
+
+            </div>
+
+            <div class="col-6">
+
+                <div class="upgrade">
+
+                    <a href="upgrade.html"><button type="button" class="btn btn-outline-light">Upgrade</button></a>
+
+                </div>
+
+                <div class="user-info">
+
+                    <div class="dropdown">
+                        <a class="btn btn-dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Gaurav Sidhu
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="account.html">Account</a></li>
+                            <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+                            <li><a class="dropdown-item" href="upgrade.html">Upgrade to premium</a></li>
+                            <li><a class="dropdown-item" href="setting.html">Settings</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="log_out.html">Log out</a></li>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="container-fluid">
+
+
+        <div class="row">
+
+            <div class="col-12">
+
+                <div class="profile">
+
+                    <a href="profile.html"><img src="images/user (3).png" class="profile"></a>
+
+                </div>
+
+                <div class="profile-name">
+
+                    <p class="Profile-a">Profile</p>
+
+                    <h4 class="gaurav">Gaurav Sidhu</h4>
+
+                    <p class="4 public">4 Public Playlists .</p>
+
+                    <a href="profile.html" class="following">
+                        <p class="following-a">3 Following</p>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-12">
+
+                <div class="profile-button">
+
+                    <button type="button" class="btn btn-success" id="openModalBtn">
+                        Edit Profile
+                    </button>
+
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Profile Details</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Gaurav Sidhu.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="copy-link-button">
+                    <a href="#" class="copy" onclick="copySpotifyUrl()">
+                        <p class="copy-a">Copy Spotify Url</p>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-12">
+
+                <div class="top-artist">
+
+                    <h4 class="top-artist-a">Top artists this month</h4>
+
+                    <p class="only">Only Visible to you</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-3">
+
+                <div class="profile-card-1">
+
+                    <div class="card" style="width: 18rem;">
+                        <a href="sidhu.html"><img src="images/profile-1.avif" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <a href="sidhu.html" class="card-text-b">
+                                <p class="card-text-a">
+                                    <p>Sidhu Moose Wala</p>
+                            </a>
+
+                            <p class="Artist">Artist</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-3">
+
+                <div class="profile-card-2">
+
+                    <div class="card" style="width: 18rem;">
+                        <a href="karan.html"><img src="images/profile-2.avif" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <a href="karan.html" class="card-text-b">
+                                <p class="card-text-a">
+                                    <p>Karan Aujla</p>
+                            </a>
+                            <p class="Artist">Artist</p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-3">
+
+                <div class="profile-card-3">
+
+                    <div class="card" style="width: 18rem;">
+                        <a href="shubh.html"><img src="images/profile-3.avif" class="shubh" alt="..."></a>
+                        <div class="card-body">
+                            <a href="shubh.html" class="card-text-b">
+                                <p class="card-text-a">
+                                    <p>Shubh</p>
+                            </a>
+                            <p class="Artist">Artist</p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer id="upgrade-footer">
+
+        <div class="row" id="upgrade-footer">
+
+            <div class="col-8">
+
+                <div class="footer-img">
+
+                    <a href="upgrade.html"><img src="images/spotify.png" class="footer-img-a"></a>
+
+                </div>
+
+                <div class="footer-1">
+
+                    <p class="company">COMPANY</p>
+
+                    <a href="#" class="about">
+                        <p class="about-a">About</p>
+                    </a>
+
+                    <a href="#" class="about">
+                        <p class="about-a">Jobs</p>
+                    </a>
+
+                    <a href="#" class="about">
+                        <p class="about-a">for the Record</p>
+                    </a>
+
+                </div>
+
+                <div class="footer-2">
+
+                    <p class="company">COMMUNITIES</p>
+
+                    <a href="#" class="about">
+                        <p class="about-a">For Artists</p>
+                    </a>
+
+                    <a href="#" class="about">
+                        <p class="about-a">Developers
+                        </p>
+                    </a>
+
+                    <a href="#" class="about">
+                        <p class="about-a">Advertising
+                        </p>
+                    </a>
+
+                    <a href="#" class="about">
+                        <p class="about-a">Investors
+                        </p>
+                    </a>
+
+                    <a href="#" class="about">
+                        <p class="about-a">Vendors
+                        </p>
+                    </a>
+
+                </div>
+
+                <div class="footer-3">
+
+                    <p class="company">USEFUL LINKS</p>
+
+                    <a href="#" class="about">
+                        <p class="about-a">Support</p>
+                    </a>
+
+                    <a href="#" class="about">
+                        <p class="about-a">Web Player
+                        </p>
+                    </a>
+
+                    <a href="#" class="about">
+                        <p class="about-a">Free Mobile App
+                        </p>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="col-4">
+
+                <div class="footer-buttons">
+
+                    <button type="button" class="btn btn-outline-dark"><img src="images/insta.jpeg"
+                            class="insta"></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button"
+                        class="btn btn-outline-dark"><img src="images/twitter.jpeg"
+                            class="twitter"></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button"
+                        class="btn btn-outline-dark"><img src="images/facebook.jpeg" class="facebook"></button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row" id="upgrade-footer-a">
+
+            <div class="col-8">
+
+                <div class="footer-anchor">
+
+                    <a href="#" class="legal">
+                        <p class="legal-a">Legal
+                        </p>
+                    </a>
+
+                </div>
+
+                <div class="footer-anchor-c">
+
+                    <a href="#" class="legal">
+                        <p class="legal-a">Privacy Center
+
+                        </p>
+                    </a>
+
+                </div>
+
+                <div class="footer-anchor-d">
+
+                    <a href="#" class="legal">
+                        <p class="legal-a">Privacy Policy
+
+                        </p>
+                    </a>
+
+                </div>
+
+                <div class="footer-anchor-e">
+
+                    <a href="#" class="legal">
+                        <p class="legal-a">Cookies
+
+                        </p>
+                    </a>
+
+                </div>
+
+                <div class="footer-anchor-f">
+
+                    <a href="#" class="legal">
+                        <p class="legal-a">About Ads
+
+                        </p>
+                    </a>
+
+                </div>
+
+                <div class="footer-anchor-g">
+
+                    <a href="#" class="legal">
+                        <p class="legal-a">Accessibility
+                        </p>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="col-4">
+
+                <div class="india">
+
+                    <a href="#" class="India (English)">
+                        <p class="India (English)-a">India (English)</p>
+                    </a>
+
+                </div>
+
+                <div class="spotify-ab">
+
+                    <p class="© 2023 Spotify AB">© 2023 Spotify AB</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,424 @@
+<html>
+
+<head>
+    <title>Spotify-Profile</title>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="stylesheet/spotify.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="row">
+
+            <div class="col-6">
+
+                <a href="index.html"><img src="images/spotify.png" class="logo"></a>
+
+                <div class="left-button">
+
+                    <a href="index.html"><button type="button" class="btn btn-dark btn-sm">
+                            < </button></a>
+
+                </div>
+
+                <div class="right-button">
+
+                    <a href="search.html"><button type="button" class="btn btn-dark btn-sm">
+                            > </button></a>
+
+                </div>
+
+            </div>
+
+            <div class="col-6">
+
+                <div class="upgrade">
+
+                    <a href="upgrade.html"><button type="button" class="btn btn-outline-light">Upgrade</button></a>
+
+                </div>
+
+                <div class="user-info">
+
+                    <div class="dropdown">
+                        <a class="btn btn-dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Gaurav Sidhu
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="account.html">Account</a></li>
+                            <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+                            <li><a class="dropdown-item" href="upgrade.html">Upgrade to premium</a></li>
+                            <li><a class="dropdown-item" href="setting.html">Settings</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="log_out.html">Log out</a></li>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-12">
+
+                <div class="sidhu-profile">
+
+                    <img src="images/sidhu-5.jpg" class="profile-sidhu">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="container-fluid">
+
+        <div class="sidhu-profile-details">
+
+        <div class="row">
+
+            <div class="col-12">
+
+                <div class="blue-tick-img">
+
+                    <img src="images/bluetick.png" class="bluetick">
+
+                    <p class="Verified">Verified Artist</p>
+
+                </div>
+
+                <div class="profile-name-a">
+
+                    <h4 class="profile-name-b">Sidhu Moose Wala</h4>
+
+                </div>
+
+                <div class="listners">
+
+                    <p class="listners-a">9,785,346 monthly listners</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-12">
+
+                <div class="following-button">
+
+                    <button id="followBtn" onclick="toggleFollow();" ondblclick="showAlert()">Follow</button>
+
+                </div>
+
+                <div class="popular">
+
+                    <h4 class="Popular-a">Popular Songs</h4>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-12">
+
+                <p class="1-profile">1.</p>
+
+                <a href="liked.html"><img src="images/295.jpg" class="about-you"></a>
+
+                <div class="about-you">
+                    <audio controls id="audio">
+                        <source src="music/295.mp3" type="audio/ogg">
+                        Your browser does not support the audio element.
+                    </audio>
+
+                </div>
+
+                <p class="2-profile">2.</p>
+
+                <a href="liked.html"><img src="images/chorni.jpeg" class="about-you"></a>
+
+                <div class="about-you">
+                    <audio controls id="audio">
+                        <source src="music/chorni-sidhu-divine.mp3" type="audio/ogg">
+                        Your browser does not support the audio element.
+                    </audio>
+
+                </div>
+
+                <p class="3-profile">3.</p>
+
+                <a href="liked.html"><img src="images/malwa block.jpg" class="about-you"></a>
+
+                <div class="about-you">
+                    <audio controls id="audio">
+                        <source src="music/Malwa Block - Sidhu Moose Wala.mp3" type="audio/ogg">
+                        Your browser does not support the audio element.
+                    </audio>
+
+                </div>
+
+                <p class="4-profile">4.</p>
+
+                <a href="liked.html"><img src="images/last ride.jpg" class="about-you"></a>
+
+                <div class="about-you">
+                    <audio controls id="audio">
+                        <source src="music/The Last Ride - Sidhu Moose Wala 128 Kbps.mp3" type="audio/ogg">
+                        Your browser does not support the audio element.
+                    </audio>
+
+                </div>
+
+                <p class="5-profile">5.</p>
+
+                <a href="liked.html"><img src="images/level.jpeg" class="about-you"></a>
+
+                <div class="about-you">
+                    <audio controls id="audio">
+                        <source src="music/Levels_320(PagalWorld).mp3" type="audio/ogg">
+                        Your browser does not support the audio element.
+                    </audio>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <script>
+        function toggleFollow() {
+            var btn = document.getElementById("followBtn");
+
+            if (btn.innerHTML === "Follow") {
+                btn.innerHTML = "Following";
+            } else {
+                btn.innerHTML = "Follow";
+            }
+        }
+
+        function showAlert() {
+            alert("You are following Sidhu Moose Wala");
+        }
+    </script>
+
+    <footer id="upgrade-footer">
+
+        <div class="row" id="upgrade-footer">
+
+            <div class="col-8">
+
+                <div class="footer-img">
+
+                    <a href="upgrade.html"><img src="images/spotify.png" class="footer-img-a"></a>
+
+                </div>
+
+                <div class="footer-1">
+
+                    <p class="company">COMPANY</p>
+
+                    <a href="#" class="about">
+                        <p class="about-a">About</p>
+                    </a>
+
+                    <a href="#" class="about">
+                        <p class="about-a">Jobs</p>
+                    </a>
+
+                    <a href="#" class="about">
+                        <p class="about-a">for the Record</p>
+                    </a>
+
+                </div>
+
+                <div class="footer-2">
+
+                    <p class="company">COMMUNITIES</p>
+
+                    <a href="#" class="about">
+                        <p class="about-a">For Artists</p>
+                    </a>
+
+                    <a href="#" class="about">
+                        <p class="about-a">Developers
+                        </p>
+                    </a>
+
+                    <a href="#" class="about">
+                        <p class="about-a">Advertising
+                        </p>
+                    </a>
+
+                    <a href="#" class="about">
+                        <p class="about-a">Investors
+                        </p>
+                    </a>
+
+                    <a href="#" class="about">
+                        <p class="about-a">Vendors
+                        </p>
+                    </a>
+
+                </div>
+
+                <div class="footer-3">
+
+                    <p class="company">USEFUL LINKS</p>
+
+                    <a href="#" class="about">
+                        <p class="about-a">Support</p>
+                    </a>
+
+                    <a href="#" class="about">
+                        <p class="about-a">Web Player
+                        </p>
+                    </a>
+
+                    <a href="#" class="about">
+                        <p class="about-a">Free Mobile App
+                        </p>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="col-4">
+
+                <div class="footer-buttons">
+
+                    <button type="button" class="btn btn-outline-dark"><img src="images/insta.jpeg"
+                            class="insta"></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button"
+                        class="btn btn-outline-dark"><img src="images/twitter.jpeg"
+                            class="twitter"></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button"
+                        class="btn btn-outline-dark"><img src="images/facebook.jpeg" class="facebook"></button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row" id="upgrade-footer-a">
+
+            <div class="col-8">
+
+                <div class="footer-anchor">
+
+                    <a href="#" class="legal">
+                        <p class="legal-a">Legal
+                        </p>
+                    </a>
+
+                </div>
+
+                <div class="footer-anchor-c">
+
+                    <a href="#" class="legal">
+                        <p class="legal-a">Privacy Center
+
+                        </p>
+                    </a>
+
+                </div>
+
+                <div class="footer-anchor-d">
+
+                    <a href="#" class="legal">
+                        <p class="legal-a">Privacy Policy
+
+                        </p>
+                    </a>
+
+                </div>
+
+                <div class="footer-anchor-e">
+
+                    <a href="#" class="legal">
+                        <p class="legal-a">Cookies
+
+                        </p>
+                    </a>
+
+                </div>
+
+                <div class="footer-anchor-f">
+
+                    <a href="#" class="legal">
+                        <p class="legal-a">About Ads
+
+                        </p>
+                    </a>
+
+                </div>
+
+                <div class="footer-anchor-g">
+
+                    <a href="#" class="legal">
+                        <p class="legal-a">Accessibility
+                        </p>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="col-4">
+
+                <div class="india">
+
+                    <a href="#" class="India (English)">
+                        <p class="India (English)-a">India (English)</p>
+                    </a>
+
+                </div>
+
+                <div class="spotify-ab">
+
+                    <p class="© 2023 Spotify AB">© 2023 Spotify AB</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

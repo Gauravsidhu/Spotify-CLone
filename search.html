@@ -1,0 +1,718 @@
+<html>
+
+<head>
+    <title>Spotify - Search</title>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="stylesheet/spotify.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="row">
+
+            <div class="col-8">
+
+                <div class="spotify-logo-a">
+
+                    <a href="index.html" class="logo-b"><img src="images/spotify.png" class="logo-c" </a>
+
+                </div>
+
+                <div class="left-button-a">
+
+                    <a href="index.html"><button type="button" class="btn btn-dark btn-sm">
+                            < </button></a>
+
+                </div>
+
+                <div class="right-button-a">
+
+                    <a href="your.html"><button type="button" class="btn btn-dark btn-sm">></button></a>
+
+
+                </div>
+
+                <div class="search-bar">
+
+                    <form class="form-group">
+
+                        <div class="search-form">
+
+                            <input type="text" class="form-control" placeholder="Search Here">
+
+                        </div>
+
+                    </form>
+
+
+                </div>
+
+            </div>
+
+            <div class="col-4">
+
+                <div class="user-info-a">
+
+                    <div class="dropdown">
+                        <a class="btn btn-dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Gaurav Sidhu
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="account.html">Account</a></li>
+                            <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+                            <li><a class="dropdown-item" href="upgrade.html">Upgrade to premium</a></li>
+                            <li><a class="dropdown-item" href="setting.html">Settings</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="log_out.html">Log out</a></li>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="col-2">
+
+                <a href="index.html" class="search-logo"><img src="images/home (2).png" class="search-logo-a"></a>
+
+
+                <div class="search-home">
+
+                    <a href="index.html" class="search-home-a">
+                        <p class="search-home-b">Home</p>
+                    </a>
+
+                </div>
+
+                <div class="search">
+
+                    <a href="search.html"><img src="images/search (1).png" class="search-bar"></a>
+
+                    <a href="search.html" class="search-bar-a">
+                        <p class="search-bar-b">Search</p>
+                    </a>
+
+                </div>
+
+                <div class="library">
+
+                    <a href="your.html" class="library"><img src="images/file.png" class="library-a"></a>
+
+                    <a href="your.html" class="library-b">
+                        <p class="Liibrary-c">Your library</p>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="col-2">
+
+                <div class="browse-all">
+
+                    <a href="search.html" class="browse-all-a">
+                        <h4 class="browse-all-b">Browse all</h4>
+                    </a>
+
+                </div>
+
+                <div class="search-card-1">
+
+                    <div class="card text-bg-dark">
+                        <img src="images/podcast.jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Podcast</h5>
+                            <div class="podcast-button">
+                                <a href="search.html" onclick="sorry()" class="btn btn-secondary btn-sm">podcast</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-2">
+
+                <div class="search-card-2">
+
+                    <div class="card text-bg-dark">
+                        <img src="images/live-event.png" class="card-img" height="181px" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Live Events</h5>
+                            <div class="podcast-button">
+                                <a href="search.html" onclick="sorry()" class="btn btn-secondary btn-sm">Live Events</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-2">
+
+                <div class="search-card-3">
+
+                    <div class="card text-bg-dark">
+                        <img src="images/made for you.jpg" class="card-img" height="181px" alt="...">
+                        <div class="card-img-overlay">
+                            <div class="made-for-you-text">
+                                <h5 class="card-title" style="color: black;">Made for you</h5>
+                            </div>
+                            <div class="podcast-button">
+                                <a href="search.html" onclick="sorry()" class="btn btn-secondary btn-sm">Made for
+                                    you</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-2">
+
+                <div class="search-card-4">
+
+                    <div class="card text-bg-dark">
+                        <img src="images/new-release.webp" class="card-img" height="181px" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">New Release</h5>
+                            <div class="podcast-button">
+                                <a href="search.html" onclick="sorry()" class="btn btn-secondary btn-sm">New Release</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-2">
+
+                <div class="search-card-5">
+
+                    <div class="card text-bg-dark">
+                        <img src="images/punjabi.png" class="card-img" height="181px" alt="...">
+                        <div class="card-img-overlay">
+                            <div class="punjabi-text">
+                                <h5 class="card-title" style="color: black;">Punjabi</h5>
+                            </div>
+                            <div class="podcast-button">
+                                <a href="search.html" onclick="sorry()" class="btn btn-secondary btn-sm">Punjabi</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-2">
+
+                <div class="playlist-a">
+
+                    <a href="create_playlist.html"><button type="button"
+                            class=" btn btn-secondary btn-sm">+</button></a>
+
+                    <a href="create_playlist.html" class="playlist-a">
+                        <p class="playlist-b">Create Playlist</p>
+                    </a>
+
+                </div>
+
+                <div class="liked-songs">
+
+                    <a href="liked.html"><img src="images/heart.png" class="heart" </a>
+
+                        <a href="liked.html" class="heart-a">
+                            <p class="heart-b">Liked Songs</p>
+                        </a>
+
+                </div>
+
+                <div class="line-a">
+
+                    <p class="line-1">______________________________</p>
+
+                </div>
+
+
+            </div>
+
+            <div class="col-2">
+
+                <div class="search-card-6">
+
+                    <div class="card text-bg-dark">
+                        <img src="images/tamil.webp" class="card-img" height="181px" alt="...">
+                        <div class="card-img-overlay">
+                            <div class="punjabi-text">
+                                <h5 class="card-title" style="color: black;">Tamil</h5>
+                            </div>
+                            <div class="podcast-button">
+                                <a href="search.html" onclick="sorry()" class="btn btn-secondary btn-sm">Tamil</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-2">
+
+                <div class="search-card-6">
+
+                    <div class="card text-bg-dark">
+                        <img src="images/telegu.webp" class="card-img" height="181px" alt="...">
+                        <div class="card-img-overlay">
+                            <div class="punjabi-text">
+                                <h5 class="card-title" style="color: black;">Telegu</h5>
+                            </div>
+                            <div class="podcast-button">
+                                <a href="search.html" onclick="sorry()" class="btn btn-secondary btn-sm">Telegu</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-2">
+
+                <div class="search-card-6">
+
+                    <div class="card text-bg-dark">
+                        <img src="images/pop.jpg" class="card-img" height="181px" alt="...">
+                        <div class="card-img-overlay">
+                            <div class="punjabi-text">
+                                <h5 class="card-title" style="color: black;">Pop</h5>
+                            </div>
+                            <div class="podcast-button">
+                                <a href="search.html" onclick="sorry()" class="btn btn-secondary btn-sm">Pop</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-2">
+
+                <div class="search-card-6">
+
+                    <div class="card text-bg-dark">
+                        <img src="images/indie.jpg" class="card-img" height="181px" alt="...">
+                        <div class="card-img-overlay">
+                            <div class="punjabi-text">
+                                <h5 class="card-title" style="color: black;">Indie</h5>
+                            </div>
+                            <div class="podcast-button">
+                                <a href="search.html" onclick="sorry()" class="btn btn-secondary btn-sm">Indie</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-2">
+
+                <div class="search-card-6">
+
+                    <div class="card text-bg-dark">
+                        <img src="images/trending.webp" class="card-img" height="181px" alt="...">
+                        <div class="card-img-overlay">
+                            <div class="punjabi-text">
+                                <h5 class="card-title" style="color: black;">Trending</h5>
+                            </div>
+                            <div class="podcast-button">
+                                <a href="search.html" onclick="sorry()" class="btn btn-secondary btn-sm">Trending</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-2">
+
+                <div class="playlist-links-a">
+
+                    <a href="play3.html" class="link-1">
+                        <p class="link-2">My Playlist #3</p>
+                    </a>
+
+                    <a href="play2.html" class="link-1">
+                        <p class="link-2">My Playlist #2</p>
+                    </a>
+
+                    <a href="play1.html" class="link-1">
+                        <p class="link-2">My Playlist #1</p>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="col-2">
+
+                <div class="search-card-6">
+
+                    <div class="card text-bg-dark">
+                        <img src="images/love.avif" class="card-img" height="181px" alt="...">
+                        <div class="card-img-overlay">
+                            <div class="punjabi-text">
+                                <h5 class="card-title" style="color: black;">Love</h5>
+                            </div>
+                            <div class="podcast-button">
+                                <a href="search.html" onclick="sorry()" class="btn btn-secondary btn-sm">Love</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-2">
+
+                <div class="search-card-6">
+
+                    <div class="card text-bg-dark">
+                        <img src="images/chill.webp" class="card-img" height="181px" alt="...">
+                        <div class="card-img-overlay">
+                            <div class="punjabi-text">
+                                <h5 class="card-title" style="color: black;">Chill</h5>
+                            </div>
+                            <div class="podcast-button">
+                                <a href="search.html" onclick="sorry()" class="btn btn-secondary btn-sm">Chill</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-2">
+
+                <div class="search-card-6">
+
+                    <div class="card text-bg-dark">
+                        <img src="images/discover.webp" class="card-img" height="181px" alt="...">
+                        <div class="card-img-overlay">
+                            <div class="punjabi-text">
+                                <h5 class="card-title" style="color: black;">Discover</h5>
+                            </div>
+                            <div class="podcast-button">
+                                <a href="search.html" onclick="sorry()" class="btn btn-secondary btn-sm">Discover</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-2">
+
+                <div class="search-card-6">
+
+                    <div class="card text-bg-dark">
+                        <img src="images/party.jpg" class="card-img" height="181px" alt="...">
+                        <div class="card-img-overlay">
+                            <div class="punjabi-text">
+                                <h5 class="card-title" style="color: black;">Party</h5>
+                            </div>
+                            <div class="podcast-button">
+                                <a href="search.html" onclick="sorry()" class="btn btn-secondary btn-sm">Party</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-2">
+
+                <div class="search-card-6">
+
+                    <div class="card text-bg-dark">
+                        <img src="images/mood.webp" class="card-img" height="181px" alt="...">
+                        <div class="card-img-overlay">
+                            <div class="punjabi-text">
+                                <h5 class="card-title" style="color: black;">Mood</h5>
+                            </div>
+                            <div class="podcast-button">
+                                <a href="search.html" onclick="sorry()" class="btn btn-secondary btn-sm">Mood</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+
+        function sorry() {
+
+            alert("Sorry Not Available due to some technical issues")
+
+        }
+
+    </script>
+
+<footer id="upgrade-footer">
+
+    <div class="row" id="upgrade-footer">
+
+        <div class="col-8">
+
+            <div class="footer-img">
+
+                <a href="upgrade.html"><img src="images/spotify.png" class="footer-img-a"></a>
+
+            </div>
+
+            <div class="footer-1">
+
+                <p class="company">COMPANY</p>
+
+                <a href="#" class="about">
+                    <p class="about-a">About</p>
+                </a>
+
+                <a href="#" class="about">
+                    <p class="about-a">Jobs</p>
+                </a>
+
+                <a href="#" class="about">
+                    <p class="about-a">for the Record</p>
+                </a>
+
+            </div>
+
+            <div class="footer-2">
+
+                <p class="company">COMMUNITIES</p>
+
+                <a href="#" class="about">
+                    <p class="about-a">For Artists</p>
+                </a>
+
+                <a href="#" class="about">
+                    <p class="about-a">Developers
+                    </p>
+                </a>
+
+                <a href="#" class="about">
+                    <p class="about-a">Advertising
+                    </p>
+                </a>
+
+                <a href="#" class="about">
+                    <p class="about-a">Investors
+                    </p>
+                </a>
+
+                <a href="#" class="about">
+                    <p class="about-a">Vendors
+                    </p>
+                </a>
+
+            </div>
+
+            <div class="footer-3">
+
+                <p class="company">USEFUL LINKS</p>
+
+                <a href="#" class="about">
+                    <p class="about-a">Support</p>
+                </a>
+
+                <a href="#" class="about">
+                    <p class="about-a">Web Player
+                    </p>
+                </a>
+
+                <a href="#" class="about">
+                    <p class="about-a">Free Mobile App
+                    </p>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="col-4">
+
+            <div class="footer-buttons">
+
+                <button type="button" class="btn btn-outline-dark"><img src="images/insta.jpeg"
+                        class="insta"></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button"
+                    class="btn btn-outline-dark"><img src="images/twitter.jpeg"
+                        class="twitter"></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button"
+                    class="btn btn-outline-dark"><img src="images/facebook.jpeg" class="facebook"></button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row" id="upgrade-footer-a">
+
+        <div class="col-8">
+
+            <div class="footer-anchor">
+
+                <a href="#" class="legal">
+                    <p class="legal-a">Legal
+                    </p>
+                </a>
+
+            </div>
+
+            <div class="footer-anchor-c">
+
+                <a href="#" class="legal">
+                    <p class="legal-a">Privacy Center
+
+                    </p>
+                </a>
+
+            </div>
+
+            <div class="footer-anchor-d">
+
+                <a href="#" class="legal">
+                    <p class="legal-a">Privacy Policy
+
+                    </p>
+                </a>
+
+            </div>
+
+            <div class="footer-anchor-e">
+
+                <a href="#" class="legal">
+                    <p class="legal-a">Cookies
+
+                    </p>
+                </a>
+
+            </div>
+
+            <div class="footer-anchor-f">
+
+                <a href="#" class="legal">
+                    <p class="legal-a">About Ads
+
+                    </p>
+                </a>
+
+            </div>
+
+            <div class="footer-anchor-g">
+
+                <a href="#" class="legal">
+                    <p class="legal-a">Accessibility
+                    </p>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="col-4">
+
+            <div class="india">
+
+                <a href="#" class="India (English)">
+                    <p class="India (English)-a">India (English)</p>
+                </a>
+
+            </div>
+
+            <div class="spotify-ab">
+
+                <p class="© 2023 Spotify AB">© 2023 Spotify AB</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+
+</html>
